@@ -40,6 +40,8 @@ push the changes
 ### `git push origin <branch name>` 
 And it will be live on your branch 
 
+Create a pull request to the master branch to get your codes merged.
+
 ## Happy coding
 
 
