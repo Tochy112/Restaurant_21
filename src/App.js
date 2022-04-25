@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar/navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/about'
-import Products from './Components/Products/product'
+// import Products from './Components/Products/Product'
 import Contact from './Components/Contact/contact'
 import Footer from './Components/Footer/footer'
 import {
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route  path="/" element={<Home />}/>
             <Route  path="/about" element={<About />}/>
-            <Route  path="/products" element={<Products />}/>
+            {/* <Route  path="/products" element={<Products />}/> */}
             <Route  path="/contact" element={<Contact />}/>
           </Routes>
             <Footer />

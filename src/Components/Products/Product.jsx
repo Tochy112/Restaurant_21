@@ -1,6 +1,6 @@
 import React from 'react'
-import SampleCover from '../components/Product/SampleCover'
-import FoodProduct from '../components/Product/FoodProduct'
+import SampleCover from '../Products/Product/SampleCover'
+import FoodProduct from '../Products/Product/FoodProduct'
 
 export default function Product() {
   return (
