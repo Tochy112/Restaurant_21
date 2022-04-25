@@ -1,38 +1,100 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10% 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-icons{
+  margin-top: 5%;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iconify{
+  margin: 5px 10px 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  background-color: transparent;
+  padding: 1% 2%;
+}
+.shlogo{
+  width: 100px;
+  height: px;;
+}
+.nav-list1, .nav-list2{
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 30%;
+  color: black;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-list1 li, .nav-list2 li{
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav-list1 li:hover, .nav-list2 li:hover{
+  color: green;
+}
+.nav-flex{
+  display: flex;
+  justify-content: space-between;
+}
+@media  screen and (min-width: 800px) {
+  .nav2{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media  screen and (max-width: 800px) {
+  .footer-flex{
+    flex-direction: column;
+  }
+  .ff1,.ff2,.ff3{
+    margin-top: 5%;
+  }
+  .nav{
+    display: none;
+  }
+  .ham{
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px 10px;
+    background-color: #55A354;
+    color: white;
+  }
+  .nav-list3{
+    float: right;
+    margin-top: 40px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    margin-left: 0;
+    background-color: rgb(230, 230, 250);
+    transition: 2s ease-in-out;
+  }
+  .nav2{
+    padding: 10px 2px ;
+    color: transparent;
+  }
+  .nav-list3 a{
+    text-decoration: none;
+  }
+  .nav-list3 li{
+    list-style: none;
+    padding: 20px 50px;
+    cursor: pointer;
+    color: black;
+  }
+  .nav-list3 li:hover{
+    color: green;
   }
 }

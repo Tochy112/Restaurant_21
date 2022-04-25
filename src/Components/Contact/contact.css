@@ -8,12 +8,15 @@
 .contact-div{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 h2{
     margin-bottom: 30px;
+   
 }
 p{
     margin-bottom: 30px;
+    
 }
 form{
     max-width: fit-content;
@@ -67,6 +70,12 @@ form{
        margin-left: 0; 
 
     }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 414px){
     .form-div input{
@@ -75,6 +84,7 @@ form{
     #msg{
         width: 350px;
     }
+    
 }
 @media screen and (max-width: 280px){
     .form-div input{
@@ -83,6 +93,7 @@ form{
     #msg{
         width: 250px;
     }
+    
 }
 @media screen and (width: 1024px){
    .contact-div{
