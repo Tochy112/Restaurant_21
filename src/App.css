@@ -19,3 +19,80 @@
   cursor: pointer;
   color: black;
 }
+.nav{
+  background-color: transparent;
+  padding: 1% 2%;
+}
+.shlogo{
+  width: 100px;
+  height: px;;
+}
+.nav-list1, .nav-list2{
+  list-style-type: none;
+  display: flex;
+  width: 30%;
+  color: black;
+  justify-content: space-around;
+}
+.nav-list1 li, .nav-list2 li{
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.nav-list1 li:hover, .nav-list2 li:hover{
+  color: green;
+}
+.nav-flex{
+  display: flex;
+  justify-content: space-between;
+}
+@media  screen and (min-width: 800px) {
+  .nav2{
+    display: none;
+  }
+}
+@media  screen and (max-width: 800px) {
+  .footer-flex{
+    flex-direction: column;
+  }
+  .ff1,.ff2,.ff3{
+    margin-top: 5%;
+  }
+  .nav{
+    display: none;
+  }
+  .ham{
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px 10px;
+  }
+  .nav-list3{
+    float: right;
+    margin-top: 40px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    margin-left: 0;
+    background-color: rgb(230, 230, 250);
+    transition: 2s ease-in-out;
+  }
+  .nav2{
+    padding: 10px 2px ;
+    color: transparent;
+  }
+  .nav-list3 a{
+    text-decoration: none;
+  }
+  .nav-list3 li{
+    list-style: none;
+    padding: 20px 50px;
+    cursor: pointer;
+    color: black;
+  }
+  .nav-list3 li:hover{
+    color: green;
+  }
+}
