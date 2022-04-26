@@ -1,6 +1,7 @@
 import React from 'react'
 import { sample } from '../../data'
 import SampleFood from './SampleFood'
+import {sample} from '../data'
 
 export default function SampleCover() {
   return (
