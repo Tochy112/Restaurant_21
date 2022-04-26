@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { products } from '../../data'
+import { products } from '../data'
 import FoodItems from './FoodStuffs/FoodItems'
 import FoodNav from './FoodStuffs/FoodNav'
 
