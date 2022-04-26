@@ -1,9 +1,8 @@
-import React from 'react'
 import './App.css';
 import Navbar from './Components/Navbar/navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/about'
-import Products from './Components/Products/product'
+// import Products from '../src/Components/Products/Product'
 import Contact from './Components/Contact/contact'
 import Footer from './Components/Footer/footer'
 import {
@@ -11,7 +10,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-// import ViewButton from './Components/Button/Button';
 
 function App() {
   return (
@@ -21,7 +19,7 @@ function App() {
           <Routes>
             <Route  path="/" element={<Home />}/>
             <Route  path="/about" element={<About />}/>
-            <Route  path="/products" element={<Products />}/>
+            {/* <Route  path="/products" element={<Products />}/> */}
             <Route  path="/contact" element={<Contact />}/>
           </Routes>
             <Footer />
