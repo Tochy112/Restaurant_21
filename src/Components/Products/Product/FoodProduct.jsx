@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { products } from '../data'
 import FoodItems from './FoodStuffs/FoodItems'
 import FoodNav from './FoodStuffs/FoodNav'
+import  { sample } from '../data'
 
 const AllFoodProduct = ['All',...new Set(products.map((item)=>item.category))]
 
