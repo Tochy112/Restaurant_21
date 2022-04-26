@@ -40,6 +40,8 @@ form{
 }
 #submit{
     justify-content: center;
+    background-color: #55A354;
+    color: #fff;
 }
 
 /* Address area */

@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+footer{
+  background-color: #efefef;
+  padding: 10px 0;
+}
 .footer-flex{
   display: flex;
   justify-content: space-between;
@@ -26,7 +30,7 @@
 }
 .shlogo{
   width: 100px;
-  height: px;;
+  
 }
 .nav-list1, .nav-list2{
   list-style-type: none;
@@ -39,6 +43,7 @@
   font-size: 15px;
   cursor: pointer;
   text-transform: uppercase;
+  /* margin: 0 20px; */
 }
 .nav-list1 li:hover, .nav-list2 li:hover{
   color: green;
@@ -46,6 +51,7 @@
 .nav-flex{
   display: flex;
   justify-content: space-between;
+  /* margin: auto; */
 }
 @media  screen and (min-width: 800px) {
   .nav2{

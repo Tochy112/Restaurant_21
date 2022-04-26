@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar/navbar'
 import Home from './Components/Home/Home'
 import About from './Components/About/about'
-// import Products from './Components/Products/Product'
+// import Products from '../src/Components/Products/Product'
 import Contact from './Components/Contact/contact'
 import Footer from './Components/Footer/footer'
 import {

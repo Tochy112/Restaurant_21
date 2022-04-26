@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import "./Home.css";
 import Image from "react-bootstrap/Image";
@@ -105,11 +104,4 @@ const Home = () => {
   );
 };
 
-=======
-
-const Home = () => {
-  return <div>Home</div>;
-};
-
->>>>>>> master
 export default Home;
