@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* form area */
+.contact-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+h2{
+    margin-bottom: 30px;
+   
+}
+p{
+    margin-bottom: 30px;
+    
+}
+form{
+    max-width: fit-content;
+}
+.form-div {
+    margin-right: 50px;
+}
+.form-div label{
+    display: flex;
+    flex-direction: flex-end;
+}
+.form-div input{
+    display: flex;
+    width: 450px;
+    height: 40px;
+}
+#msg{
+    width: 450px;
+    height: 200px;
+}
+#submit{
+    justify-content: center;
+}
+
+/* Address area */
+.add-div{
+    max-width: fit-content;
+    margin-left: 50px;  
+}
+.add-div ul{
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+/* media query */
+ @media screen and (max-width: 920px){
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+    } 
+    form{
+        margin: auto;
+    }
+    .form-div{
+        align-self: center;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .add-div{
+       align-self: center;
+       margin-left: 0; 
+
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 414px){
+    .form-div input{
+        width: 350px;
+    }
+    #msg{
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width: 280px){
+    .form-div input{
+        width: 250px;
+    }
+    #msg{
+        width: 250px;
+    }
+    
+}
+@media screen and (width: 1024px){
+   .contact-div{
+       margin: 0 50px;
+   }
+}
+
+
