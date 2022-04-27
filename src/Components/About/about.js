@@ -22,7 +22,9 @@ const About = () => {
           </p>
 
           {/* Button component  */}
+            <a href="/products">
             <ViewButton name='View Our Menu'></ViewButton>
+            </a>
       </Container>
 
       <Container fluid className='container2'>
@@ -45,7 +47,10 @@ const About = () => {
           </Container>
 
           {/* Button component  */}
-          <ViewButton name='Contact Us' className='view'></ViewButton>
+            <a href="/contact">
+            <ViewButton name='Contact Us' className='view'>
+          </ViewButton>
+            </a>
 
         </Container>
     </Container>

@@ -7,7 +7,7 @@ const AllFoodProduct = ['All',...new Set(products.map((item)=>item.category))]
 
 export default function FoodProduct() {
     const [foodStuffs,setFoodStuff] = useState(products)
-    const [foodNav,setFoodNav] = useState(AllFoodProduct)
+    const [foodNav] = useState(AllFoodProduct)
 
    
 

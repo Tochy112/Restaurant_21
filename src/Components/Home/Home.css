@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  width: 100% !important;
 }
 .fluid {
   padding-left: 0em !important;
@@ -36,7 +37,7 @@ h5 {
 }
 
 .offer-color {
-  background-color: #ffff5c;
+  background-color: white;
 }
 
 .offer-size {
