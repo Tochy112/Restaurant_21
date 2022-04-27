@@ -5,7 +5,7 @@
 }
 footer{
   margin-top: 0;
-  background-color: #efefef;
+  background-color: #32CD32;
   padding: 10px 0;
 }
 .footer-flex{
@@ -25,7 +25,7 @@ footer{
   color: black;
 }
 #nav{
-  background-color: #efefef;
+  background-color: #32CD32;
   padding-top: 5px;
   margin-bottom: 0;
   width: 100%;
@@ -50,11 +50,11 @@ footer{
 }
 .nav-link{
   text-decoration: none;
-  color: inherit;
+  color: black !important;
 }
 
 .nav-list1 li:hover, .nav-list2 li:hover{
-  color: green;
+  color: white;
 }
 .nav-flex{
   display: flex;
@@ -95,8 +95,9 @@ footer{
     top: 0;
     height: 100vh;
     margin-left: 0;
-    background-color: rgba(85, 163, 84, 0.8);
+    background-color: rgba(85, 163, 84);
     transition: 2s ease-in-out;
+    z-index: 1;
   }
   .nav2{
     padding: 10px 2px ;
