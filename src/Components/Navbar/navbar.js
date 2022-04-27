@@ -12,17 +12,33 @@ const Navbar = () => {
       <nav id="nav">
         <div className="nav-flex">
           <ul className="nav-list1">
-            <li>Home</li>
-            <li>About</li>
-            <li>Reservation</li>
-            <li>Products</li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Reservation</a>
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
           </ul>
           <img src="sidehustle.jpg" alt="logo" className="shlogo" />
           <ul className="nav-list2">
-            <li>Menu</li>
-            <li>Recipe</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
+            <li>
+              <a href="#">Menu</a>
+            </li>
+            <li>
+              <a href="#">Recipe</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -35,30 +51,37 @@ const Navbar = () => {
         </div>
         {navbarOpen ? (
           <ul className="nav-list3">
-            <a href="">
-              <li>Home</li>
-            </a>
-            <a href="#">
-              <li>About</li>
-            </a>
-            <a href="#">
-              <li>Reservation</li>
-            </a>
-            <a href="#">
-              <li>Products</li>
-            </a>
-            <a href="#">
-              <li>Menu</li>
-            </a>
-            <a href="#">
-              <li>Recipe</li>
-            </a>
-            <a href="#">
-              <li>Blogs</li>
-            </a>
-            <a href="#">
-              <li>Contact Us</li>
-            </a>
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#">About</a>
+            </li>
+
+            <li>
+              <a href="#">Reservation</a>
+            </li>
+
+            <li>
+              <a href="#">Products</a>
+            </li>
+
+            <li>
+              <a href="#">Menu</a>
+            </li>
+
+            <li>
+              <a href="#">Recipe</a>
+            </li>
+
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
           </ul>
         ) : null}
       </nav>
