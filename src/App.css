@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
- p {
+ /* p {
   color: navy !important;
-}
+} */
 footer{
   margin-top: 0;
   background-color: limegreen;
