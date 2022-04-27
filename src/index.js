@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Product from './Product';
+import './resturant.css'
 import  "./index.css"
 import App from "./App";
 // The css for react bootstrap
@@ -9,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <Product/>
   </React.StrictMode>
 );
 
