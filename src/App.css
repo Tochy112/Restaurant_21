@@ -5,13 +5,21 @@
 }
 footer{
   margin-top: 0;
+<<<<<<< HEAD
   background-color: limegreen;
+=======
+  background-color: #32CD32;
+>>>>>>> 550a132e0eb7c7c14e56e69b024bf1b26c61269e
   padding: 10px 0;
+  width: 100%;
+}
+.ff1,.ff2,.ff3{
+  margin: 1px 30px;
 }
 .footer-flex{
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  margin: 20px 10% 0;
   text-align: center;
 }
 .footer-icons{
@@ -25,7 +33,11 @@ footer{
   color: black;
 }
 #nav{
+<<<<<<< HEAD
   background-color: limegreen;
+=======
+  background-color: #32CD32;
+>>>>>>> 550a132e0eb7c7c14e56e69b024bf1b26c61269e
   padding-top: 5px;
   margin-bottom: 0;
   width: 100%;
@@ -42,6 +54,10 @@ footer{
   margin: 10px 1px;
   justify-content: space-around;
 }
+.nav-list1 a, .nav-list2 a{
+text-decoration: none;
+color: black;
+}
 .nav-list1 li, .nav-list2 li{
   font-size: 15px;
   cursor: pointer;
@@ -54,7 +70,7 @@ footer{
 }
 
 .nav-list1 li:hover, .nav-list2 li:hover{
-  color: green;
+  color: white;
 }
 .nav-flex{
   display: flex;
@@ -95,7 +111,7 @@ footer{
     top: 0;
     height: 100vh;
     margin-left: 0;
-    background-color: rgba(85, 163, 84, 0.8);
+    background-color: rgba(85, 163, 84);
     transition: 2s ease-in-out;
     z-index: 1;
   }
@@ -106,13 +122,16 @@ footer{
   .nav-list3 a{
     text-decoration: none;
   }
-  .nav-list3 li{
+  .nav-list3 li {
     list-style: none;
     padding: 20px 50px;
     cursor: pointer;
+    
+  }
+  .nav-list3 li a {
     color: white;
   }
-  .nav-list3 li:hover{
+  .nav-list3 li a:hover{
     color: red;
   }
 }
