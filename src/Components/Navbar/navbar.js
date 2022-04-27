@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -25,7 +26,9 @@ const Navbar = () => {
               <a href="#">Products</a>
             </li>
           </ul>
-          <img src="sidehustle.jpg" alt="logo" className="shlogo" />
+          <Link to="/" className="nav-link">
+            <img src="sidehustle.jpg" alt="logo" className="shlogo" />
+          </Link>
           <ul className="nav-list2">
             <li>
               <a href="#">Menu</a>
