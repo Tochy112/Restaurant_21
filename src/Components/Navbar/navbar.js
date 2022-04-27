@@ -13,17 +13,35 @@ const Navbar = () => {
       <nav id="nav">
         <div className="nav-flex">
           <ul className="nav-list1">
-            <li> <Link  to="/" className="nav-link">Home</Link> </li>
-            <li> <Link  to="/about" className="nav-link"> About</Link></li>
-            <li> <Link to="/" className="nav-link">Reservation</Link> </li>
-            <li> <Link  to="/products" className="nav-link"> Products</Link></li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Reservation</a>
+            </li>
+            <li>
+              <a href="#">Products</a>
+            </li>
           </ul>
-          <Link to="/" className="nav-link"><img src="sidehustle.jpg" alt="logo" className="shlogo" /></Link> 
+          <Link to="/" className="nav-link">
+            <img src="sidehustle.jpg" alt="logo" className="shlogo" />
+          </Link>
           <ul className="nav-list2">
-            <li> <Link to="/" className="nav-link">Menu</Link></li>
-            <li><Link to="/" className="nav-link">Recipe</Link></li>
-            <li><Link to="/" className="nav-link">Blogs</Link></li>
-            <li><Link  to="/contact" className="nav-link">Contact Us</Link></li>
+            <li>
+              <a href="#">Menu</a>
+            </li>
+            <li>
+              <a href="#">Recipe</a>
+            </li>
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -36,23 +54,37 @@ const Navbar = () => {
         </div>
         {navbarOpen ? (
           <ul className="nav-list3">
-            
-            <li> <Link  to="/" className="nav-link">Home</Link></li>
-          
-            <li> <Link  to="/about" className="nav-link">About</Link></li>
-          
-            <li><Link to="/" className="nav-link">Resrvation</Link></li>
-          
-            <li> <Link  to="/products" className="nav-link">Products</Link></li>
-          
-            <li><Link to="/" className="nav-link">Menu</Link></li>
-          
-            <li><Link to="/" className="nav-link">Recipe</Link></li>
-          
-            <li><Link to="/" className="nav-link">Blogs</Link></li>
-            
-            <li> <Link  to="/contact" className="nav-link">Contact Us</Link></li>
-            
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#">About</a>
+            </li>
+
+            <li>
+              <a href="#">Reservation</a>
+            </li>
+
+            <li>
+              <a href="#">Products</a>
+            </li>
+
+            <li>
+              <a href="#">Menu</a>
+            </li>
+
+            <li>
+              <a href="#">Recipe</a>
+            </li>
+
+            <li>
+              <a href="#">Blogs</a>
+            </li>
+
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
           </ul>
         ) : null}
       </nav>
