@@ -23,10 +23,10 @@ const footer = () => {
         </div>
         <div className="footer-icons">
           <span class="iconify" data-icon="brandico:instagram"></span>
-          <a href="#">
+          <a href="/">
             <span class="iconify" data-icon="brandico:facebook"></span>
           </a>
-          <a href="#">
+          <a href="/">
             <span class="iconify" data-icon="brandico:twitter-bird"></span>
           </a>
           <a href="mailto:shrestaurant@gmail.com">
