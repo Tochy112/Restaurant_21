@@ -17,7 +17,7 @@ const Home = () => {
           </h5>
         </div>
         <div className="order-button mb-2">
-          <Button variant="primary" size="lg">
+          <Button variant="primary" size="lg" className="btn">
             Order Now
           </Button>
         </div>
