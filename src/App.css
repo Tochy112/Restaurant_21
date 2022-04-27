@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 footer{
+  margin-top: 5%;
   background-color: #efefef;
   padding: 10px 0;
 }
@@ -23,10 +24,11 @@ footer{
   cursor: pointer;
   color: black;
 }
-.nav{
+#nav{
   background-color: transparent;
-  padding: 1% 2%;
-  margin-top: 20px;
+  /*padding: 1% 2%;*/
+  /*margin-top: 20px;*/
+  width: 100%;
 }
 .shlogo{
   width: 100px;
@@ -35,37 +37,42 @@ footer{
 .nav-list1, .nav-list2{
   list-style-type: none;
   display: flex;
-  width: 30%;
+  /*width: 30%;*/
   color: black;
+  margin: 10px 1px;
   justify-content: space-around;
 }
 .nav-list1 li, .nav-list2 li{
   font-size: 15px;
   cursor: pointer;
   text-transform: uppercase;
-  /* margin: 0 20px; */
+  /*margin: 1px 20px; */
+
+  padding: 5px 10px;
 }
 .nav-list1 li:hover, .nav-list2 li:hover{
   color: green;
 }
 .nav-flex{
   display: flex;
+  /* made it flex 100%, it looks okay now */
+  width: 100%;
+
   justify-content: space-between;
-  /* margin: auto; */
 }
-@media  screen and (min-width: 800px) {
+@media  screen and (min-width: 850px) {
   .nav2{
     display: none;
   }
 }
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 850px) {
   .footer-flex{
     flex-direction: column;
   }
   .ff1,.ff2,.ff3{
     margin-top: 5%;
   }
-  .nav{
+  #nav{
     display: none;
   }
   .ham{
@@ -79,13 +86,13 @@ footer{
   }
   .nav-list3{
     float: right;
-    margin-top: 40px;
+    margin-top: 45px;
     position: fixed;
     right: 0;
     top: 0;
     height: 100vh;
     margin-left: 0;
-    background-color: rgb(230, 230, 250);
+    background-color: rgba(85, 163, 84, 0.8);
     transition: 2s ease-in-out;
   }
   .nav2{
@@ -99,9 +106,9 @@ footer{
     list-style: none;
     padding: 20px 50px;
     cursor: pointer;
-    color: black;
+    color: white;
   }
   .nav-list3 li:hover{
-    color: green;
+    color: red;
   }
 }
