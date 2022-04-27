@@ -93,7 +93,7 @@ const Home = () => {
                 unwanted health effect.
               </p>
               <a href="/about">
-                <Button variant="primary" className="btn-xxl">
+                <Button variant="primary" className="btn-xxl mb-3">
                   Find Out More
                 </Button>
               </a>

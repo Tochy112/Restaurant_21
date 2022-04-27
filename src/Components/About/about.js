@@ -28,7 +28,7 @@ const About = () => {
       </Container>
 
       <Container fluid className='container2'>
-        <Container className='div1'>
+        <Container className='div1' id='img-div'>
           <Container className='div2'>
             {/* <img src={Pic1} alt='server'>
             </img> */}

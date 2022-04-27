@@ -189,14 +189,14 @@ h4 {
     height: 30px;
 } */
 
-.btn:hover {
+/* .btn:hover {
     background-color: hsl(205, 78%, 60%);
     color: white;
     width: 100px;
     height: 40px;
     border-radius: 5px;
     border: none;
-}
+} */
 
 .prodContainer {
     background-color: #e7e5e5;
