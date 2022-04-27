@@ -8,6 +8,10 @@
   background-attachment: scroll;
 }
 
+.view {
+  width: 25% !important;
+}
+
 .text {
   padding-top: 200px;
   height: 550px;
@@ -16,14 +20,14 @@
 
 .title {
   font-size:70px ;
-  color: antiquewhite;
+  color: antiquewhite !important;
   font-weight: 600 ;
   font-family: sans-serif;
 }
 
 .subtitle {
   font-size:18px ;
-  color: white;
+  color: white !important;
   font-weight: lighter;
   font-family: cursive;
   font-style: italic;

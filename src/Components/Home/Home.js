@@ -17,9 +17,11 @@ const Home = () => {
           </h5>
         </div>
         <div className="order-button mb-2">
-          <Button variant="primary" size="lg">
+         <a href="/contact">
+         <Button variant="primary" size="lg" className="btn-xxl">
             Order Now
           </Button>
+         </a>
         </div>
       </Row>
       <Row className="offer-color">
@@ -36,7 +38,7 @@ const Home = () => {
               />
               <Card.Title
                 className="card-title "
-                style={{ height: "20px", backgroundColor: "#ffff5c" }}
+                style={{ height: "50px", backgroundColor: "#ffff5c" }}
               >
                 Chinese Food
               </Card.Title>
@@ -52,7 +54,7 @@ const Home = () => {
 
               <Card.Title
                 className="card-title "
-                style={{ height: "20px", backgroundColor: "#ffff5c" }}
+                style={{ height: "50px", backgroundColor: "#ffff5c" }}
               >
                 Nigeria Food
               </Card.Title>
@@ -68,7 +70,7 @@ const Home = () => {
 
               <Card.Title
                 className="card-title "
-                style={{ height: "20px", backgroundColor: "#ffff5c" }}
+                style={{ height: "50px", backgroundColor: "#ffff5c" }}
               >
                 Sea Food
               </Card.Title>
@@ -90,9 +92,11 @@ const Home = () => {
                 nutrients for people with this health condition without causing
                 unwanted health effect.
               </p>
-              <Button varient="primary" size="lg" className="mb-2 mt-5">
-                Find Out More
-              </Button>
+              <a href="/about">
+                <Button variant="primary" className="btn-xxl">
+                  Find Out More
+                </Button>
+              </a>
             </div>
           </Col>
           <Col md={6}>

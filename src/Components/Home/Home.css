@@ -16,6 +16,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.team-text mt-2 {
+  color: whitesmoke !important;
+}
+
 .restaurant-caption h1,
 h3,
 h5 {
@@ -37,7 +41,7 @@ h5 {
 }
 
 .offer-color {
-  background-color: white;
+  background-color:lightgray;
 }
 
 .offer-size {
@@ -82,4 +86,11 @@ h5 {
 .team-text {
   text-align: center;
   font-weight: bold;
+}
+
+.btn-xxl {
+  font-size: 1rem !important;
+  width:30% !important;
+  height: 50px !important;
+  margin-left: 35% !important;
 }
