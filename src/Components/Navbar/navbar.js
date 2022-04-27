@@ -20,7 +20,7 @@ const Navbar = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Reservation</a>
+              <a href="/">Reservation</a>
             </li>
             <li>
               <a href="/products">Products</a>
@@ -31,13 +31,13 @@ const Navbar = () => {
           </Link>
           <ul className="nav-list2">
             <li>
-              <a href="#">Menu</a>
+              <a href="/products">Menu</a>
             </li>
             <li>
-              <a href="#">Recipe</a>
+              <a href="/products">Recipe</a>
             </li>
             <li>
-              <a href="#">Blogs</a>
+              <a href="/">Blogs</a>
             </li>
             <li>
               <a href="/contact">Contact Us</a>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">Reservation</a>
+              <a href="/">Reservation</a>
             </li>
 
             <li>
@@ -71,15 +71,15 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">Menu</a>
+              <a href="/products">Menu</a>
             </li>
 
             <li>
-              <a href="#">Recipe</a>
+              <a href="/products">Recipe</a>
             </li>
 
             <li>
-              <a href="#">Blogs</a>
+              <a href="/">Blogs</a>
             </li>
 
             <li>
