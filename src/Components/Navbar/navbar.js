@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -12,17 +13,17 @@ const Navbar = () => {
       <nav id="nav">
         <div className="nav-flex">
           <ul className="nav-list1">
-            <li>Home</li>
-            <li>About</li>
-            <li>Reservation</li>
-            <li>Products</li>
+            <li> <Link  to="/" className="nav-link">Home</Link> </li>
+            <li> <Link  to="/about" className="nav-link"> About</Link></li>
+            <li> <Link to="/" className="nav-link">Reservation</Link> </li>
+            <li> <Link  to="/products" className="nav-link"> Products</Link></li>
           </ul>
-          <img src="sidehustle.jpg" alt="logo" className="shlogo" />
+          <Link to="/" className="nav-link"><img src="sidehustle.jpg" alt="logo" className="shlogo" /></Link> 
           <ul className="nav-list2">
-            <li>Menu</li>
-            <li>Recipe</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
+            <li> <Link to="/" className="nav-link">Menu</Link></li>
+            <li><Link to="/" className="nav-link">Recipe</Link></li>
+            <li><Link to="/" className="nav-link">Blogs</Link></li>
+            <li><Link  to="/contact" className="nav-link">Contact Us</Link></li>
           </ul>
         </div>
       </nav>
@@ -35,30 +36,23 @@ const Navbar = () => {
         </div>
         {navbarOpen ? (
           <ul className="nav-list3">
-            <a href="">
-              <li>Home</li>
-            </a>
-            <a href="#">
-              <li>About</li>
-            </a>
-            <a href="#">
-              <li>Reservation</li>
-            </a>
-            <a href="#">
-              <li>Products</li>
-            </a>
-            <a href="#">
-              <li>Menu</li>
-            </a>
-            <a href="#">
-              <li>Recipe</li>
-            </a>
-            <a href="#">
-              <li>Blogs</li>
-            </a>
-            <a href="#">
-              <li>Contact Us</li>
-            </a>
+            
+            <li> <Link  to="/" className="nav-link">Home</Link></li>
+          
+            <li> <Link  to="/about" className="nav-link">About</Link></li>
+          
+            <li><Link to="/" className="nav-link">Resrvation</Link></li>
+          
+            <li> <Link  to="/products" className="nav-link">Products</Link></li>
+          
+            <li><Link to="/" className="nav-link">Menu</Link></li>
+          
+            <li><Link to="/" className="nav-link">Recipe</Link></li>
+          
+            <li><Link to="/" className="nav-link">Blogs</Link></li>
+            
+            <li> <Link  to="/contact" className="nav-link">Contact Us</Link></li>
+            
           </ul>
         ) : null}
       </nav>

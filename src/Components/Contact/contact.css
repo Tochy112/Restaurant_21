@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+.parent{
+    background-color: #efefef;
+}
 /* form area */
 .contact-div{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 h2{
     margin-bottom: 30px;
@@ -17,7 +20,6 @@ h2{
 }
 p{
     margin-bottom: 30px;
-    
 }
 form{
     max-width: fit-content;
@@ -33,6 +35,7 @@ form{
     display: flex;
     width: 450px;
     height: 40px;
+    /* background-color: ; */
 }
 #msg{
     width: 450px;

@@ -5,7 +5,7 @@ import image from "./images/map.PNG";
 
 const contact = () => {
   return (
-    <div>
+    <div className='parent'>
       <div className='contact-div'>
         <div className='form-div'>
           <h2><u>GET IN TOUCH</u></h2>

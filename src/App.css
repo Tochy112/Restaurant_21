@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 footer{
-  margin-top: 5%;
+  margin-top: 0;
   background-color: #efefef;
   padding: 10px 0;
 }
@@ -25,9 +25,9 @@ footer{
   color: black;
 }
 #nav{
-  background-color: transparent;
-  /*padding: 1% 2%;*/
-  /*margin-top: 20px;*/
+  background-color: #efefef;
+  padding-top: 5px;
+  margin-bottom: 0;
   width: 100%;
 }
 .shlogo{
@@ -46,10 +46,13 @@ footer{
   font-size: 15px;
   cursor: pointer;
   text-transform: uppercase;
-  /*margin: 1px 20px; */
-
   padding: 5px 10px;
 }
+.nav-link{
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-list1 li:hover, .nav-list2 li:hover{
   color: green;
 }
