@@ -14,16 +14,16 @@ const Navbar = () => {
         <div className="nav-flex">
           <ul className="nav-list1">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
               <a href="#">Reservation</a>
             </li>
             <li>
-              <a href="#">Products</a>
+              <a href="/products">Products</a>
             </li>
           </ul>
           <Link to="/" className="nav-link">
@@ -40,7 +40,7 @@ const Navbar = () => {
               <a href="#">Blogs</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -55,11 +55,11 @@ const Navbar = () => {
         {navbarOpen ? (
           <ul className="nav-list3">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
 
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
 
             <li>
@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">Products</a>
+              <a href="/products">Products</a>
             </li>
 
             <li>
@@ -83,7 +83,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         ) : null}
