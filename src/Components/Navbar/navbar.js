@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="nav">
+      <nav id="nav">
         <div className="nav-flex">
           <ul className="nav-list1">
             <li>Home</li>
