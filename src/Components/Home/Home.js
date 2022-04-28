@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         <div className="order-button mb-2">
          <a href="/contact">
-         <Button variant="primary" size="lg" className="btn-xxl">
+         <Button variant="success" size="lg" className="btn-xxl">
             Order Now
           </Button>
          </a>
@@ -93,7 +93,7 @@ const Home = () => {
                 unwanted health effect.
               </p>
               <a href="/about">
-                <Button variant="primary" className="btn-xxl mb-3">
+                <Button variant="success" className="btn-xxl mb-3 p-2">
                   Find Out More
                 </Button>
               </a>
