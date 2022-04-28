@@ -10,7 +10,7 @@ const Home = () => {
       <Row className="background g-0">
         <div className="restaurant-caption">
           <h3>Welcome To Our restaurant</h3>
-          <h1>SIDE HUSTLE FOOD</h1>
+          <h1> Restaurant_21</h1>
           <h5>
             You can get your delicious meal any where in Nigeria order online
             today
@@ -28,7 +28,7 @@ const Home = () => {
         <div className="our-offer">
           <h3> We Offer </h3>
         </div>
-        <Row className="offer-size justify-content-md-center">
+        <Row className="offer-size justify-content-md-center m-auto text-center">
           <Col md={3} className="service">
             <Card className="small-card">
               <Card.Img
@@ -77,7 +77,7 @@ const Home = () => {
             </Card>
           </Col>
         </Row>
-        <Row className="team-div">
+        <Row className="team-div mt-5">
           <Col md={6}>
             <div className="team-intro">
               <h3>OUR TEAM </h3>

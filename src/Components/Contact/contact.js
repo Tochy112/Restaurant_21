@@ -39,7 +39,7 @@ const contact = () => {
                 Phone: 000-111-222
               </li>
               <li>
-                Email: restaurant21@gmail.com
+                Email: Restaurant21@gmail.com
               </li>
             </ul>
             <div className='img-div'>

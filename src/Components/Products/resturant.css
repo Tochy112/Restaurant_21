@@ -57,7 +57,21 @@ h4 {
 /* p {
     color: hsl(210, 22%, 49%);
 } */
-
+@media screen and (max-width: 440px) {
+    .boxContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 20px;
+    }
+}
 @media screen and (min-width: 800px) {
     h1 {
         font-size: 4rem;
@@ -73,6 +87,7 @@ h4 {
     }
     body {
         font-size: 1rem;
+        
     }
     h1,
     h2,

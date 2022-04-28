@@ -7,13 +7,13 @@ const footer = () => {
         <div className="footer-flex">
           <div className="ff1">
             <h2>Address:</h2>
-            <p>SH Retaurant</p>
+            <p>Restaurant_21</p>
             <p>153 Ikot Ekpene road, Uyo</p>
           </div>
           <div className="ff2">
             <h2>Reservation:</h2>
             <p>08012345678</p>
-            <p>shrestaurant@gmail.com</p>
+            <p>Restaurant21@gmail.com</p>
           </div>
           <div className="ff3">
             <h2>Open Hours:</h2>
@@ -32,7 +32,7 @@ const footer = () => {
           <a href="mailto:shrestaurant@gmail.com">
             <span class="iconify" data-icon="ci:mail"></span>
           </a>
-          <p>copyright @2022 SHRestaurant</p>
+          <p>copyright @2022 Restaurant_21</p>
         </div>
       </footer>
     </div>
